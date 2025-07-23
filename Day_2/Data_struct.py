@@ -76,6 +76,14 @@ print(u)
 mylist=u.split()
 print(mylist)
 
+#SET 
+set = {"demo", "test", "example", 1, 2, 3, 4, 5}
+print(type(set))
+set.add("new_item")
+print(set)
+
+set.remove(1)  # removes the first occurrence of 1
+print(set)
 
 
 
