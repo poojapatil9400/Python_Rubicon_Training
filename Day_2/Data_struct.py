@@ -17,7 +17,7 @@ set = {3,34,87,4}
 print(type(set))
 print(len(set))
 
-#String
+#STRING
 str = "I Love Python Programming"
 print(str[2:6]) #start indext,last index-1
 print(str[3])
@@ -83,7 +83,26 @@ set.add("new_item")
 print(set)
 
 set.remove(1)  # removes the first occurrence of 1
+
+set.update([6, 7, 8])  # adds multiple elements
 print(set)
+
+set.discard(2)  # removes 2 if it exists, does nothing if it doesn't
+print(set)
+set1 = {1, 2, 3}
+set2 = {3, 4, 5}        
+
+set3 = set1.union(set2)  # combines two sets
+print(set3)
+
+del set3  # deletes the set
+print("Set3 deleted")
+
+print(len(set))
+print(set.pop())  # removes and returns an arbitrary element from the set
+set.clear()  # removes all elements from the set    
+print(set)
+
 
 
 
