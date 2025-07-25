@@ -22,6 +22,8 @@ listbox.insert(12, "Raspberry")
 listbox.insert(13, "Papaya")
 listbox.insert(14, "Cherry")
 listbox.insert(15, "Plum")
+listbox.insert(16, "Coconut")
+listbox.insert(17, "Lemon") 
 listbox.pack()
 top.mainloop()  # Start the GUI event loop
 # This code creates a simple GUI window with a listbox containing fruit names.
