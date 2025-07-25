@@ -1,4 +1,5 @@
-# Student form using tkinter widgets
+# Student Addmission form using tkinter widgets
+
 import tkinter as tk
 from tkinter import messagebox
 
@@ -20,10 +21,31 @@ tk.Label(root, text="Name:").pack(pady=(10,0))
 entry_name = tk.Entry(root)
 entry_name.pack()
 
+#Add more fields
+# Email
+tk.Label(root, text="Email:").pack(pady=(10,0))
+entry_email = tk.Entry(root)
+entry_email.pack()
+
+#percentage
+tk.Label(root, text="Percentage:").pack(pady=(10,0))
+entry_percentage = tk.Entry(root)
+entry_percentage.pack()
+
+#mobile number
+tk.Label(root, text="Mobile Number:").pack(pady=(10,0))
+entry_mobile = tk.Entry(root)
+entry_mobile.pack()
+
 # Age
 tk.Label(root, text="Age:").pack(pady=(10,0))
 entry_age = tk.Entry(root)
 entry_age.pack()
+
+# Address
+tk.Label(root, text="Address:").pack(pady=(10,0))
+entry_address = tk.Entry(root)
+entry_address.pack()
 
 # Gender
 tk.Label(root, text="Gender:").pack(pady=(10,0))
@@ -43,10 +65,10 @@ listbox.insert(4, "JSPM")
 listbox.pack(pady=(0,10))
 # Listbox for college selection
 # Colleges name
-#colleges name
 listbox.insert(5, "TSSM")
 listbox.insert(6, "MIT")
 listbox.insert(7, "Vishwakarma")
+
 
 
 # Submit Button
